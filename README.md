@@ -68,8 +68,8 @@ Após coletar todas as pistas, leve a personagem à entrada da Tumba do Pajé (l
 ## Fim de Jogo
 
 <ul>
-  <li>**Derrota:** O jogador perde o jogo caso perca todos os seus pontos de vida.</li>
-  <li>**Vitória:** Ao chegar à Tumba do Pajé (W), o jogador deve receber uma mensagem parabenizando-o pelo tesouro encontrado.</li>
+  <li> Derrota: O jogador perde o jogo caso perca todos os seus pontos de vida.</li>
+  <li> Vitória: Ao chegar à Tumba do Pajé (W), o jogador deve receber uma mensagem parabenizando-o pelo tesouro encontrado.</li>
 </ul>
 
 Ambos os casos devem levar o jogador ao menu, que deve possuir as opções de **jogar novamente**e **sair do jogo**.
