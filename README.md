@@ -46,12 +46,14 @@ Os pontos de vida e as bordas do mapa devem sempre aparecer na tela para o usuá
 ### Salas
   
 O mapa deve obrigatoriamente contar com um determinado número de salas (de 3 a 5), além da **Tumba do Pajé**. Todas as salas deverão possuir portas e cada porta será protegida por um desaﬁo. Dentro de cada sala estará guardada uma das pistas necessárias para desvendar o “Enigma”.
+
 **Obs:** As pistas, portas e desaﬁos deverão sumir do mapa após serem encontradas, abertas e resolvidos, respectivamente.
 A Tumba do Pajé será um tipo especial de sala, ela não será protegida por um mero desaﬁo, mas sim por um soﬁsticado mecanismo que deverá ser desvendado com o auxílio das pistas encontradas.
 
 ### Vida
 
 O jogador deve começar com 5 pontos de vida. A cada desaﬁo perdido, a personagem perde um ponto de vida (que não podem ser recuperados) - portanto ela deve ser bem habilidosa para chegar à tumba.
+
 **Obs:** Os pontos de vida do jogador deve sempre estar visíveis durante a execução do jogo.
 
 ### Desafios
@@ -63,6 +65,7 @@ O jogo deve contar com no mínimo dois desaﬁos diferentes (e, no máximo, quat
 
 O enigma deve ser desvendado para abrir a porta ﬁnal, e consiste na combinação de um número de sílabas (de 3 a 5), que formarão uma palavra-chave necessária para abrir a porta da tumba. Contudo, essas sílabas devem estar espalhadas pela catacumba (dentro das salas) em forma de pistas.
 Após coletar todas as pistas, leve a personagem à entrada da Tumba do Pajé (local indicado por C), onde será solicitada a resposta do enigma para ter acesso.
+
 **Obs:** caso uma palavra errada seja inserida, uma mensagem de erro deve ser impressa na tela e um ponto de vida descontado.
 
 ## Fim de Jogo
@@ -72,4 +75,4 @@ Após coletar todas as pistas, leve a personagem à entrada da Tumba do Pajé (l
   <li> Vitória: Ao chegar à Tumba do Pajé (W), o jogador deve receber uma mensagem parabenizando-o pelo tesouro encontrado.</li>
 </ul>
 
-Ambos os casos devem levar o jogador ao menu, que deve possuir as opções de **jogar novamente**e **sair do jogo**.
+Ambos os casos devem levar o jogador ao menu, que deve possuir as opções de **jogar novamente** e **sair do jogo**.
